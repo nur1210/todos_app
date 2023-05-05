@@ -43,7 +43,7 @@ export default function AddTodo() {
         value={todoName}
         onChange={(e) => setTodoName(e.target.value)}
         onKeyPress={handleKeyPress}
-        style={{ flexGrow: 1, marginRight: "10px", padding: "10px", color: "white"}}
+        style={{ flexGrow: 1, marginRight: "10px", padding: "10px", color: "blue"}}
       />
       <Button variant="contained" color="primary" onClick={addTodo}>
         <AddIcon />
